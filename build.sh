@@ -1,2 +1,2 @@
 #!/bin/bash
-docker build -t local/docker-rdp-calibre --rm=true .
+docker build -t local/docker-calibre --rm=true .
