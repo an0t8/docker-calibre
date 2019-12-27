@@ -1,11 +1,11 @@
-FROM lsiobase/guacgui
+FROM lsiobase/gui
 
 # set version label
 ARG BUILD_DATE
 ARG VERSION
 ARG CALIBRE_RELEASE
 LABEL build_version="Linuxserver.io version:- ${VERSION} Build-date:- ${BUILD_DATE}"
-LABEL maintainer="aptalca"
+LABEL maintainer="an0t8"
 
 ENV APPNAME="calibre"
 
@@ -45,6 +45,5 @@ RUN \
 	/tmp/* \
 	/var/lib/apt/lists/* \
 	/var/tmp/*
-
 # add local files
 COPY root/ /
