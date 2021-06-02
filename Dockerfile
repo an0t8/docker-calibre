@@ -1,4 +1,4 @@
-FROM ghcr.io/linuxserver/baseimage-rdesktop:bionic
+FROM ghcr.io/linuxserver/baseimage-gui
 
 # set version label
 ARG BUILD_DATE
